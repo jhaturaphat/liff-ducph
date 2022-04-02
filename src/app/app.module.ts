@@ -11,10 +11,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
+import { FabMenuComponent } from './components/fab-menu/fab-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FabMenuComponent
   ],
   imports: [
     BrowserModule,
